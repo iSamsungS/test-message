@@ -8,11 +8,12 @@ on:
   workflow_dispatch:
     # Inputs the workflow accepts.
     inputs:
-      name:
+      name: 'Magnus'
+      persons-address: 'Keila'
         # Friendly description to be shown in the UI instead of 'name'
-        description: 'Magnus'
+        description: 'name'
         # Default value if no value is explicitly provided
-        default: 'Tere Magnus! asukohaks Tallinn'
+        default: 'Tere Magnus! asukohaks Keila'
         # Input has to be provided for the workflow to run
         required: true
 
