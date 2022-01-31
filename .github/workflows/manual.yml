@@ -17,8 +17,8 @@ on:
         required: true
       
       address:
-        description: 'Keila'
-        default: 'Magnus'
+        description: 'Magnus'
+        default: 'Keila'
         required: true
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
