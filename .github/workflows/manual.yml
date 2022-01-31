@@ -10,10 +10,10 @@ on:
     inputs:
       name:
         # Friendly description to be shown in the UI instead of 'name'
-        description: 'Magnus'
-        type: 'Keila'
+        description: 'name'
         # Default value if no value is explicitly provided
-        default: 'Test'
+        default: 'Magnus'
+        type: 'Keila'
         # Input has to be provided for the workflow to run
         required: true
 
